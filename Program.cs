@@ -6,7 +6,7 @@ namespace HelloCat
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var root = new Cat();
         }
     }
 }
