@@ -11,6 +11,7 @@ namespace HelloCat
     {
         internal readonly Cat _root;
         internal readonly ConcurrentDictionary<Type, ServiceRegistry> _registries;
+        private readonly ConcurrentDictionary<Key, object> _services;
         public void Dispose()
         {
             throw new NotImplementedException();
